@@ -21,13 +21,13 @@ a {
     color: #e5e7eb;
 }
 
-button {
+.button-1 {
     border: none;
     border-radius: 5px;
     background-color: #388ff6;
     color: #f9faf8;
     font-size: 18px;
-    padding: 6px 32px 6px 32px;
+    padding: 6px 32px;
     font-weight: bold;
 }
 
@@ -99,7 +99,7 @@ button {
     flex-direction: column;
     align-items: center;
     /*margin-top: -100px;*/
-    padding: 120px;
+    padding: 100px;
 }
 
 .main2 h1 {
@@ -111,6 +111,7 @@ button {
     display: flex;
     gap: 16px;
     flex-wrap: wrap;
+    color: #38393a6e;
 }
 
 .card {
@@ -130,7 +131,7 @@ button {
     font-size: 36px;
     font-style: italic;
     display: flex;
-    padding: 150px 250px;
+    padding: 100px 350px;
     flex-direction: column;
 }
 
@@ -155,17 +156,34 @@ button {
 
 .main4_1 {
     display: flex;
-    gap: 100px;
+    align-items: center;
+    gap: 250px;
     background-color: #388ff6;
+    color: white;
+    padding: 20px 100px;
+    margin: 50px;
+    border: none;
+    border-radius: 10px
 }
 
-.buttons-2 button {
-    border: 20px white;
+.main-4-text-upper {
+    font-weight: bold;
+    font-size: 24px;
+    margin-block-end: 0;
+}
+
+.main-4-text-lower {
+    margin-block-start: 0;
+}
+
+.button-2 {
+    border-color: white;
+    border-style: solid;
     border-radius: 5px;
     background-color: #388ff6;
     color: #f9faf8;
     font-size: 18px;
-    padding: 6px 32px 6px 32px;
+    padding: 6px 32px;
     font-weight: bold;
 }
 
