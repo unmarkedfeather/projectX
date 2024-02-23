@@ -156,14 +156,19 @@ a {
 
 .main4_1 {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 250px;
     background-color: #388ff6;
     color: white;
     padding: 20px 100px;
-    margin: 50px;
+    margin: 100px;
     border: none;
     border-radius: 10px
+}
+
+.main4_2 {
+    flex-shrink: 0;
 }
 
 .main-4-text-upper {
@@ -185,6 +190,7 @@ a {
     font-size: 18px;
     padding: 6px 32px;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .footer {
