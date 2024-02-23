@@ -36,7 +36,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 250px 0px 250px;
+    padding: 0px 250px;
     flex-wrap: wrap;
 
 }
@@ -56,8 +56,9 @@ a {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     flex-wrap: wrap;
-    padding: 75px 250px 75px 250px;
+    padding: 75px 250px 100px;
 }
 
 .main1_1 {
@@ -95,23 +96,23 @@ a {
 
 .main2 {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
-    /*margin-top: -100px;*/
-    padding: 100px;
+    padding: 50px 0px 100px;
 }
 
 .main2 h1 {
     font-size: 36px;
     font-weight: bolder;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .cards {
     display: flex;
-    gap: 16px;
     flex-wrap: wrap;
     color: #38393a6e;
+    padding: 50px 0px;
 }
 
 .card {
@@ -128,15 +129,17 @@ a {
 
 .main3 {
     background-color: #e5e7eb;
-    font-size: 36px;
-    font-style: italic;
     display: flex;
-    padding: 100px 350px;
+    padding: 100px;
     flex-direction: column;
+    align-items: center;
 }
 
 .quote {
     font-weight: lighter;
+    font-size: 36px;
+    font-style: italic;
+    max-width: 980px
 }
 
 .signo {
@@ -151,7 +154,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
 }
 
 .main4_1 {
